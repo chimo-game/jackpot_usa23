@@ -1,8 +1,9 @@
   :root {
-    --color-blue: #09bc8a;
-    --color-white: #fff;
+    --color-blue: #ffffff;
+    --color-white: #09bc8a;
     --curve: cubic-bezier(0.420, 0.000, 0.275, 1.155);
-    --ff-poppins: "Poppins", sans-serif;
+     --ff-nunito: "Nunito", sans-serif;
+  --ff-open-sans: "Open Sans", sans-serif;
   }
 
   @mixin size($size) {
@@ -20,7 +21,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--color-white);
-    font-family: var(--ff-poppins);
+    font-family: var(--ff-nunito);
   }
 
   .star {
